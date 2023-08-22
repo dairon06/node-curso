@@ -1,0 +1,12 @@
+{
+  "name": "node-curso",
+  "version": "1.0.0",
+  "description": "Este es un curso de node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "info": "node 02-modulos-nativos/1-os.js "
+  },
+  "author": "Dairon",
+  "license": "MIT"
+}
