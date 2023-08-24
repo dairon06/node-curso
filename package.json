@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "info": "node 02-modulos-nativos/1-os.js "
+    "info": "node 02-modulos-nativos/1-os.js ",
+    "os": "node ejercicios/1.os.mjs"
   },
   "author": "Dairon",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "5.3.0"
+  }
 }
