@@ -1,3 +1,4 @@
+requerir("dotenv").configuración();
 const process = require("node:process");
 
 console.log(process.cwd()); //Trae el directorio actual de trabajo
@@ -9,6 +10,9 @@ console.log(process.version); //Trae la version de node.js
 if (process.argv[2] === "dev") {
   console.log("Estás en modo desarrollo");
 }
+
+console.log(process.env.NOMBRE);
+console.log(process.env.EDAD);
 
 process.on("beforeExit", () => {
   console.log("El proceso va a terminar");
